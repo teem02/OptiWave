@@ -8,6 +8,7 @@ import RegisterPage from './pages/RegisterPage';
 import UploadPage from './pages/UploadPage';
 import TrendingPage from './pages/TrendingPage';
 import SearchPage from './pages/SearchPage';
+import VideoPage from './pages/VideoPage';
 import './App.css';
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
               <Route path="/upload" element={<UploadPage />} />
               <Route path="/trending" element={<TrendingPage />} />
               <Route path="/search" element={<SearchPage />} />
-              {/* <Route path="/video/:id" element={<VideoPage />} /> */}
+              <Route path="/video/:id" element={<VideoPage />} />
             </Routes>
           </main>
         </div>
